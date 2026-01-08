@@ -3,5 +3,6 @@
   "assets": {
     "directory": "./",
     "notFoundStrategy": "singlePageApplication"
-  }
+  },
+  "buildOutputDirectory": "./"
 }
