@@ -1,13 +1,7 @@
 {
   "name": "curl",
-  "framework": "static",
   "assets": {
-    "directory": "./"
-  },
-  "rewrites": [
-    {
-      "source": "/**",
-      "destination": "/index.html"
-    }
-  ]
+    "directory": "./",
+    "notFoundStrategy": "singlePageApplication"
+  }
 }
