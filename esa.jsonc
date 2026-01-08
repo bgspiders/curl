@@ -2,6 +2,6 @@
   "name": "curl",
   "assets": {
     "directory": "./",
-    "notFoundStrategy": "404Page"
+    "notFoundStrategy": "singlePageApplication"
   }
 }
