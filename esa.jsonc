@@ -1,19 +1,7 @@
 {
-  // ESA 配置文件
-  "framework": "static",
-  
-  // 资源目录（相对于项目根目录）
-  "assets": "./",
-  
-  // 不需要配置函数文件，因为这是纯静态网站
-  
-  // 构建配置（此项目不需要构建）
-  "build": {
-    "command": ""
-  },
-  
-  // 包管理配置
-  "install": {
-    "command": ""
+  "name": "curl",
+  "assets": {
+    "directory": "./",
+    "notFoundStrategy": "404Page"
   }
 }
