@@ -1,7 +1,13 @@
 {
   "name": "curl",
+  "framework": "static",
   "assets": {
-    "directory": "/",
-    "notFoundStrategy": "404Page"
-  }
+    "directory": "./"
+  },
+  "rewrites": [
+    {
+      "source": "/**",
+      "destination": "/index.html"
+    }
+  ]
 }
