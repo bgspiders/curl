@@ -3,10 +3,5 @@
   "assets": {
     "directory": "./",
     "notFoundStrategy": "singlePageApplication"
-  },
-  "buildOutputDirectory": "./",
-  "versionManagement": {
-    "maxVersions": 10,
-    "deleteExpiredVersions": true
   }
 }
