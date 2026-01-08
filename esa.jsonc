@@ -4,5 +4,9 @@
     "directory": "./",
     "notFoundStrategy": "singlePageApplication"
   },
-  "buildOutputDirectory": "./"
+  "buildOutputDirectory": "./",
+  "versionManagement": {
+    "maxVersions": 10,
+    "deleteExpiredVersions": true
+  }
 }
